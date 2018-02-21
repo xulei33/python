@@ -1,0 +1,15 @@
+
+git config --global user.name "xulei33"
+git config --global user.email "xulei33@outlook.com"
+
+
+echo "# python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xulei33/python.git
+git push -u origin master
+
+git add .
+git commit -m "commit"
+git push -u origin master
